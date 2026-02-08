@@ -5,7 +5,7 @@ The repository contains the complete workflow including data analysis, model tra
 
 ---
 
-## Project Overview
+## 📌 Project Overview
 
 The goal of this project is to analyze clinical health data and build a machine learning model that can predict whether a person is at risk of heart disease.
 
@@ -18,7 +18,7 @@ The project includes:
 
 ---
 
-## Technologies Used
+## 📦 Technologies Used
 
 - Python
 - Pandas, NumPy
@@ -44,4 +44,21 @@ The final deployed model is **K-Nearest Neighbors (KNN)** based on evaluation me
 
 ---
 
+## 📂 Project Structure
 
+```text
+Heart-Disease-Prediction-ML/
+│
+├── app.py                    # Streamlit web application
+├── HeartDisease_Final.ipynb  # Data analysis & model training notebook
+├── heart.csv                 # Dataset
+│
+├── model/
+│   ├── knn_heart_model.pkl   # Trained KNN model
+│   ├── heart_scaler.pkl      # Scaler used during training
+│   └── heart_columns.pkl     # Feature columns
+│
+├── requirements.txt          # Required Python libraries
+└── README.md
+
+---
