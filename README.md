@@ -131,6 +131,15 @@ streamlit run app.py
 
 ---
 
+## 📌 Key Learnings
+
+* Proper preprocessing and feature scaling significantly improve model performance
+* Evaluation metrics like precision and recall are more important than accuracy in healthcare prediction
+* Simple models such as KNN can perform well on structured medical data
+* Deploying models with Streamlit enables real-time user interaction
+
+---
+
 ## 🔗 Live Demo:  
 
 https://heart-disease-prediction-ml-videeksha.streamlit.app/
