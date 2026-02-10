@@ -18,6 +18,23 @@ The project includes:
 
 ---
 
+## ⚙️ How the Project Works
+
+1. Data Loading
+- Clinical heart disease dataset (heart.csv) is loaded
+2. Exploratory Data Analysis
+- Visualization of feature distributions and correlations
+3. Preprocessing
+- Feature scaling and train-test split
+4. Model Training
+- Multiple classifiers are trained and evaluated
+5. Model Selection
+- KNN selected based on performance metrics
+6. Deployment
+- Final model integrated into a Streamlit web application
+
+---
+
 ## 📦 Technologies Used
 
 - Python
@@ -28,8 +45,6 @@ The project includes:
 - Joblib
 
 ---
-
-
 
 ## Machine Learning Models
 
@@ -46,7 +61,7 @@ The final deployed model is **K-Nearest Neighbors (KNN)** based on evaluation me
 
 ## 📂 Project Structure
 
-```text
+```
 Heart-Disease-Prediction-ML/
 │
 ├── app.py                    # Streamlit web application
@@ -60,5 +75,66 @@ Heart-Disease-Prediction-ML/
 │
 ├── requirements.txt          # Required Python libraries
 └── README.md
+```
 
 ---
+
+## 🧪 Model Evaluation
+
+- Multiple machine learning models were evaluated using standard classification metrics
+- KNN provided the best balance between accuracy and generalization
+- Trained model and preprocessing objects are reused during deployment
+
+---
+
+## 🧑‍💻 Usage
+
+1. Open the Streamlit web app
+2. Enter patient health parameters (age, cholesterol, blood pressure, etc.)
+3. Click Predict
+4. The app outputs whether the person is at risk of heart disease
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Videeksha22/Heart-Disease-Prediction-ML.git
+cd Heart-Disease-Prediction-ML
+```
+
+2. Create & activate a virtual environment
+   
+```bash
+python3 -m venv venv
+source venv/bin/activate      # macOS/Linux
+.\venv\Scripts\activate       # Windows
+```
+
+3. Install requirements:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the Streamlit app:
+
+```bash
+streamlit run app.py
+```
+
+5. Open the app in browser:
+
+   The terminal will show a local URL (e.g., http://localhost:8501) — open it to interact with the app.
+
+---
+
+## 🔗 Live Demo:  
+
+https://heart-disease-prediction-ml-videeksha.streamlit.app/
+
+---
+
+> ⚠️ **Disclaimer:** This project is for educational purposes only and should not be used for medical diagnosis.
